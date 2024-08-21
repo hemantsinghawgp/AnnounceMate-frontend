@@ -51,22 +51,23 @@ const IndexPage = () => {
 
             {/* Demo Section */}
             <section id="demo" className="py-16 bg-gray-200">
-                <div className="max-w-6xl mx-auto px-4 text-center">
-                    <h2 className="text-3xl font-bold text-gray-800 mb-8">Watch Our Demo</h2>
-                    <div className="flex justify-center">
-                        <iframe 
-                            width="560" 
-                            height="315" 
-                            src="https://www.youtube.com/watch?v=HuqQujky0Bk" 
-                            title="AnnounceMate Product Demo" 
-                            frameBorder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowFullScreen
-                            className="rounded-lg shadow-lg"
-                        ></iframe>
-                    </div>
-                </div>
-            </section>
+    <div className="max-w-6xl mx-auto px-4 text-center">
+        <h2 className="text-3xl font-bold text-gray-800 mb-8">Watch Our Demo</h2>
+        <div className="flex justify-center">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/HuqQujky0Bk" 
+                title="AnnounceMate Product Demo" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+                className="rounded-lg shadow-lg"
+            ></iframe>
+        </div>
+    </div>
+</section>
+
 
             {/* Footer */}
             <footer className="bg-gray-800 text-white py-4">
